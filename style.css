@@ -17,6 +17,10 @@ body {
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
   background-color: rgb(125, 164, 221);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 input,
@@ -29,20 +33,26 @@ h1 {
   color: beige;
 }
 section {
+  height: auto;
+  max-height: 100vh;
   display: flex;
-  height: 100vh;
-  align-items: center;
+  align-items: stretch;
   justify-content: center;
+  width: 100%;
+  max-width: 1200px;
 }
 
 .media-wrapper {
   position: relative;
+  flex: 1;
+  max-width: 50%;
 }
 
 .backgroud {
   position: relative;
   object-fit: cover;
-  height: 50vh;
+  height: 100%;
+  width: 100%;
 }
 
 .line {
@@ -56,4 +66,12 @@ section {
 
 .logo {
   width: 30%;
+}
+
+.content-wrapper {
+  padding: 5rem 5rem;
+  background-color: azure;
+  flex: 2;
+  max-width: 50%;
+  overflow-y: auto;
 }
