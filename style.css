@@ -10,6 +10,7 @@
 }
 * {
   margin: 0;
+  font-size: 62, 5%;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 body {
@@ -17,11 +18,7 @@ body {
   -webkit-font-smoothing: antialiased;
   background-color: rgb(125, 164, 221);
 }
-img,
-picture {
-  display: block;
-  max-width: 100%;
-}
+
 input,
 button {
   font: inherit;
@@ -33,4 +30,16 @@ h1 {
 section {
   display: flex;
   height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.media-wrapper {
+  position: relative;
+}
+
+.backgroud {
+  position: relative;
+  object-fit: cover;
+  height: 50vh;
 }
