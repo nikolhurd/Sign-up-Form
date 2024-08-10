@@ -2,10 +2,7 @@
 
 /* Variables */
 
-/*
-  Josh's Custom CSS Reset
-  https://www.joshwcomeau.com/css/custom-css-reset/
-*/
+/* CSS Reset */
 *,
 *::before,
 *::after {
@@ -21,32 +18,15 @@ body {
   background-color: rgb(125, 164, 221);
 }
 img,
-picture,
-video,
-canvas,
-svg {
+picture {
   display: block;
   max-width: 100%;
 }
 input,
-button,
-textarea,
-select {
+button {
   font: inherit;
 }
-p,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  overflow-wrap: break-word;
-}
-#root,
-#__next {
-  isolation: isolate;
-}
+
 h1 {
   font-family: "Chonburi", display;
 }
