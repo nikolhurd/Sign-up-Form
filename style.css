@@ -90,3 +90,7 @@ section {
   position: absolute;
   bottom: 2rem;
 }
+
+fieldset {
+  border: none;
+}
