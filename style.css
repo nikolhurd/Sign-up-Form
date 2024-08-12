@@ -78,7 +78,7 @@ section {
   display: flex;
   flex-direction: column;
   gap: 5rem;
-  padding: 5rem 5rem;
+  padding: 5rem 0rem;
   background-color: azure;
   flex: 5;
   overflow-y: auto;
@@ -91,4 +91,15 @@ section {
 
 fieldset {
   border: none;
+}
+
+.form-wrapper {
+  background-color: white;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.content-wrapper > div {
+  padding-left: 5rem;
+  padding-right: 5rem;
 }
