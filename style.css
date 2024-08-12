@@ -138,11 +138,14 @@ fieldset .row {
 fieldset label {
   text-transform: uppercase;
   margin-bottom: 0.25rem;
+  font-size: var(--font-size-xs);
 }
 
 fieldset input {
-  width: 100%;
+  width: 80%;
   padding: 0.5rem;
+  border: 1px solid #c7c7c7;
+  border-radius: 8px;
 }
 
 .form-wrapper {
