@@ -56,7 +56,7 @@ section {
 .media-wrapper {
   position: relative;
   flex: 3;
-  background-image: url("backgroud.jpg");
+  background-image: url("img/backgroud.jpg");
   background-size: cover;
   background-position: center;
 }
