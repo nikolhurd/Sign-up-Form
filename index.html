@@ -53,7 +53,12 @@
                 </div>
                 <div class="form-group">
                   <label for="phone_number">Phone Number</label>
-                  <input type="tel" id="phone_number" name="phone_number" />
+                  <input
+                    type="tel"
+                    id="phone_number"
+                    name="phone_number"
+                    placeholder="+420 123 456 789"
+                  />
                 </div>
               </div>
 
@@ -65,6 +70,10 @@
                     id="user_password"
                     name="password"
                     required
+                    minlength="8"
+                    maxlength="16"
+                    pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[!@#$%^&*]).{8,16}"
+                    title="Password must be 8-16 characters long and include at least one number, one lowercase letter, one uppercase letter, and one special character (!@#$%^&*)."
                   />
                 </div>
                 <div class="form-group">
@@ -74,17 +83,20 @@
                     id="confirm_password"
                     name="confirm_password"
                     required
+                    minlength="8"
+                    maxlength="16"
+                    pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[!@#$%^&*]).{8,16}"
+                    title="Password must be 8-16 characters long and include at least one number, one lowercase letter, one uppercase letter, and one special character (!@#$%^&*)."
                   />
                 </div>
               </div>
             </fieldset>
-        </div>
             <div class="button-wrapper">
               <button type="submit">Create Account</button>
               <p>Already have a account <a href="">Log In</a></p>
             </div>
           </form>
-        
+        </div>
       </div>
     </section>
   </body>
