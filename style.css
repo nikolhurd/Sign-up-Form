@@ -184,7 +184,7 @@ button {
   width: 250px;
   margin: 7px;
   color: #ffffff;
-  background-color: rgb(125, 164, 221);
+  background-color: var(--blue);
   border-radius: 8px;
   font-weight: 600;
   cursor: pointer;
@@ -192,7 +192,7 @@ button {
 }
 
 .content-wrapper a {
-  color: rgb(125, 164, 221);
+  color: var(--blue);
   font-weight: bold;
 }
 
